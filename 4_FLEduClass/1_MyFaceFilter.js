@@ -46,7 +46,7 @@ scene.add(light)
 
 //adding face mesh
 const faceMesh = mindarThree.addFaceMesh();
-const texture = await loadTexture("./1_MyFilter.png") //여기에 있는 필터를 바꿔주면 됩니다!
+const texture = await loadTexture("./4-2_FaceTrackingExample2/하트다시.png") //여기에 있는 필터를 바꿔주면 됩니다!
 faceMesh.material.map = texture;
 faceMesh.material.transparent = true;
 faceMesh.material.needsUpdate = true;
